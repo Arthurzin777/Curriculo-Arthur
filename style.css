@@ -1,0 +1,208 @@
+body {
+    width: 940px;
+    margin: 0 auto;
+    background: linear-gradient(#be0303, #64DFDF, #48BFE3, #5390D9, #be0303);
+}
+
+
+.menu-principal {
+    background-color: #0020d3;
+    position: fixed;
+    width: 940px;
+}
+
+.menu-principal ul {
+    display: flex;
+    margin-left: 150px;
+   }
+
+.menu-principal li {
+    padding: 15px;
+    margin: 10px;
+    font-family: initial;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px 10px;
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu-principal li:hover {
+    background-color: rgb(10, 175, 204)
+}
+
+.inicio {
+    background-color: #00a7da;
+    padding-top: 50px;
+    display: flex;
+
+}
+
+.inicio h1 {
+    font-size: 70px;
+}
+
+.inicio h3 {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.inicio p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.inicio p img {
+    width: 20px;
+    left: 12px;
+}
+
+.rede-social {
+    width: 40px;
+    padding-top: 70px;
+    padding-left: 100px;
+
+}
+
+.foto-perfil {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    border-radius: 220px;
+    border: 10px solid blue;
+    width: 350px;
+    left: 200px;
+}
+
+.dados {
+    margin-left: 40px;
+    margin-top: 90px;
+    color: rgb(0, 0, 0);
+}
+
+.sobre-mim {
+    background: rgb(255, 229, 229);
+    padding: 48px 0;
+    color: rgb(0, 0, 0);
+
+}
+
+.meu-texto {
+    display: inline-block;
+    width: 480px;
+    vertical-align: top;
+    right: 0;
+    top: 48px;
+}
+
+.meu-texto p {
+    font-size: 20px;
+    font-family: initial;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.titulo1 {
+    text-align: center;
+    border-radius: 20px 20px;
+    font-style: italic;
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+    top: -300px;
+    
+}
+
+.titulo {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 48px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.titulo-sobremim {
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 48px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.sobre-mim-conteudo {
+    display: flex;
+    background: antiquewhite;
+}
+.sobre-mim-conteudo img {
+    width: 50%;
+    border-radius: 80px;
+    padding-left: 20px;
+}
+
+.sobre-mim p {
+    text-align: center;
+    border-radius: 1px solid black;
+}
+
+main div {
+background: rgb(255, 229, 229);
+padding: 48px 0;
+color: rgb(0, 0, 0);
+}
+
+#experiencia p, #aprendiz p, #habilidades p {
+    background-color: rgb(0, 225, 255);
+    box-shadow: 1px 1px 16px rgb(82 4 56 / 50%);
+    color: rgb(10, 1, 1);
+    padding: 18px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 45%;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 100px;
+    font-size: 20px;
+    margin: 2.3%;
+}
+
+#aprendiz, #habilidades, #experiencia {
+    background: antiquewhite;
+}
+
+
+.titulo p, a  {
+    text-decoration: none;
+    color: red;
+}
+
+.final {
+    background: #02afe4;
+    text-align: center;
+}
+
+.final h1 {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.final a {
+    text-decoration: none;
+}
+
+.final img {
+    width: 40px;
+}
+
+.ultimo p {
+    font-size: 20px;
+}
